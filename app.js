@@ -4,7 +4,9 @@ life = life - 10;
 
 //90
 
-let name = 'Ashley Salinas'; // name display BLOCK VARIABLE
+{ let x = 2; } // BLOCK VARIABLE
+
+let name = 'Ashley Salinas'; // name display 
 
 let title = 'Hello, from Ashley Salinas'; // STRING
 
