@@ -1,15 +1,22 @@
-var life = 100; // Life Bar GLOBAL VARIABLE
+const name = 'Ashley Salinas';
 
-life = life - 10; 
+function toUpper(text) {
+    const upperCased = text.toUpperCase();
+    console.log(upperCased);
+}
 
-//90
+toUpper(name);
 
-{ let x = 2; } // BLOCK VARIABLE
+function logger()  {
+    console.log('I hope I am doing this right!');
+}
 
-let name = 'Ashley Salinas'; // name display 
+logger();
 
-let title = 'Hello, from Ashley Salinas'; // STRING
 
-const person = { occupation: 'Software Developer'}; // OBJECT
+function adder(num1, num2, num3) {
+    console.log (num1 + num2 - num3)
+}
 
-console.log(title);
+adder(50, 50, 1);
+
