@@ -1,11 +1,9 @@
-const name = 'Ashley Salinas';
+const first = "Ashley";         //this is my concatenated string variable.
+const town = "Del Rio, Tx"
 
-function toUpper(text) {
-    const upperCased = text.toUpperCase();
-    console.log(upperCased);
-}
+console.log(`Hello I'm your classate and my name is ${first} and I am from ${town}.`);
 
-toUpper(name);
+//end
 
 const person = {
         firstName: "Ashley",
@@ -33,9 +31,39 @@ function logger()  {
 
 logger();
 
-function adder(num1, num2, num3) {
-    console.log (num1 + num2 - num3)
+const old = 19;     //this is my "if" statement.
+
+if(old > 21) {
+    console.log("You are free to enter.");
+} else if (old < 21) {
+    console.log("Sorry, you are not able to enter.");
 }
+//end
 
-adder(50, 50, 1);
+let fruit = 'peaches';      //this is my switch statement.
 
+switch (fruit) {
+    case 'peaches':
+        console.log('Peaches are my favorite.');
+        break;
+    case 'apple':
+        console.log('Apples are good too.');
+        break;
+    case 'mango':
+        console.log('Mangoes are even better than Apples.');
+        break;
+}
+//end
+
+let course = "    JavaScript makes me overthink.     ";     //this is my string method.
+    console.log(course.trim());
+
+//end
+
+const PI = 3.141596254      //this is my number method.
+
+const num = PI.toFixed(2);
+
+console.log(num);
+
+//end
