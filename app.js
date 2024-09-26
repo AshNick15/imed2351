@@ -1,10 +1,11 @@
 
-const button = document.getElementById("myButton");
+const button = document.getElementById("myButton");     // this is my change CSS with JS
 const paragraph = document.getElementById("myParagraph");
 
 button.addEventListener("click", () => {
     paragraph.classList.toggle("hidden");
 });
+    //end
 
 for (let i = 18;i < 26; i++) {      //this is my forLoop
     console.log(i); 
