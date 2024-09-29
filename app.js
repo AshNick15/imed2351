@@ -1,1 +1,28 @@
-console.log('Hello, what time are you seeing this?') ;
+
+const button = document.getElementById("myButton");     // this is my change CSS with JS
+const paragraph = document.getElementById("myParagraph");
+
+button.addEventListener("click", () => {
+    paragraph.classList.toggle("hidden");
+});
+    //end
+
+for (let i = 18;i < 26; i++) {      //this is my forLoop
+    console.log(i); 
+}
+    //end
+
+const colors = [`Orange`, `Black`, `White`] ;      //this is my whileLoop
+
+let color = 0;
+
+while (color < colors.length) {
+    console.log(`${colors[color]}`);
+    color++;
+}
+  //end
+
+function logger()  {
+    console.log('I hope I am doing this right!');
+}
+logger();
