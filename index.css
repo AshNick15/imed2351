@@ -1,0 +1,12 @@
+button, p {
+    font-family: cursive;
+    color:darkcyan;
+}
+
+p {
+    line-height: 2.5;
+}
+
+.hidden{
+    display: none;
+}
