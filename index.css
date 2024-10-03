@@ -2,8 +2,14 @@ button, p {
     font-family: cursive;
     color: navy;
 }
+
+h1{
+    color: navy;
+}
+
+
 body{
-    background-color: burlywood;
+    background-color: yellow;
 }
 
 p {
