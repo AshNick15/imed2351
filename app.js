@@ -1,26 +1,33 @@
 
-const button = document.getElementById("myButton");     // this is my change CSS with JS
-const paragraph = document.getElementById("myParagraph");
-
-button.addEventListener("click", () => {
-    paragraph.classList.toggle("hidden");
-});
+    //this is my object
+const person = {
+    firstName: "Logan",
+    species: "Human Mutant",
+    origin: "Canada",
+}
+console.log(person.firstName);
+console.log(person.species);
     //end
 
-for (let i = 18;i < 26; i++) {      //this is my forLoop
-    console.log(i); 
-}
+   //this is my object method
+const car = {
+    brand: 'Motorcycle',
+    honk: function() {    
+        return 'Vroom! Vroom!';
+    }
+};
+console.log(car.honk());
     //end
 
-const colors = [`Orange`, `Black`, `White`] ;      //this is my whileLoop
+    //this is my array
+ let xmen = ['Rogue', 'Gambit', 'Wolverine', 'Beast', 'Jubilee'];   
+ console.log(xmen[2]);
+    //end
 
-let color = 0;
-
-while (color < colors.length) {
-    console.log(`${colors[color]}`);
-    color++;
-}
-  //end
+    //this is my array method
+let letters = ['A', 'X', 'I'];  
+console.log(letters.indexOf('X'));
+    //end
 
 function logger()  {
     console.log('I hope I am doing this right!');
