@@ -1,0 +1,21 @@
+button, p {
+    font-family: cursive;
+    color: navy;
+}
+
+h1{
+    color: navy;
+}
+
+
+body{
+    background-color: yellow;
+}
+
+p {
+    line-height: 2.5;
+}
+
+.hidden{
+    display: none;
+}
